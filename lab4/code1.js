@@ -67,7 +67,7 @@ LE: [{
 TDZ: {} 
 
 5. FEC f creation:
-Outer: Global
+Outer: c
 LE: [{
   arguments: object,
   a: 8,
@@ -78,7 +78,7 @@ LE: [{
 TDZ: {}
 
 6. FEC f execution:
-Outer: Global
+Outer: c
 LE: [{
   arguments: object,
   a: 8,
