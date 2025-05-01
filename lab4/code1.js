@@ -88,4 +88,11 @@ LE: [{
 }]
 TDZ: {} 
 
+Printed: 
+undefined
+8
+8
+9
+10
+undefined
 */
