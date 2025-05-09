@@ -11,6 +11,7 @@ document.write(myFunction())
 
 1. Global EC creation:
 Outer: null,
+this: window
 LE: [{
   x: undefined,
   myFunction: <function>,
@@ -20,6 +21,7 @@ TDZ: {}
 
 2.Global EC execution:
 Outer: null, 
+this: window
 LE: [{ 
   x: 5,
   myFunction: <function>,
@@ -28,6 +30,7 @@ TDZ: {}
 
 3. FEC (myFunction first call) creation:
 Outer: Global
+this: undefined
 LE: [{
   arguments: object,
 }]
@@ -35,6 +38,7 @@ TDZ: {}
 
 4. FEC (myFunction first call) execution:
 Outer: Global
+this: undefined
 LE: [{
   arguments: object,
 }]
@@ -42,6 +46,7 @@ TDZ: {}
 
 5. FEC (myFunction second call) creation:
 Outer: Global
+this: undefined
 LE: [{
   arguments: object,
 }]
@@ -49,6 +54,7 @@ TDZ: {}
 
 6. FEC (myFunction second call) execution:
 Outer: Global
+this: undefined
 LE: [{
   arguments: object,
 }]

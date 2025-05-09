@@ -25,6 +25,7 @@ document.write(x)
 
 1. Global EC creation:
 Outer: null,
+this: window
 LE: [{
   a: undefined,
   b: undefined,
@@ -34,6 +35,7 @@ TDZ: { x }
 
 2.Global EC execution:
 Outer: null,
+this: window
 LE: [{
   a: 5,
   b: 10,
@@ -44,6 +46,7 @@ TDZ: {}
 
 3. FEC c creation:
 Outer: Global
+this: undefined
 LE: [{
   arguments: object,
   a: 8,
@@ -56,6 +59,7 @@ TDZ: {}
 
 4. FEC c execution:
 Outer: Global
+this: undefined
 LE: [{
   arguments: object,
   a: 8,
@@ -68,6 +72,7 @@ TDZ: {}
 
 5. FEC f creation:
 Outer: c
+this: undefined
 LE: [{
   arguments: object,
   a: 8,
@@ -79,6 +84,7 @@ TDZ: {}
 
 6. FEC f execution:
 Outer: c
+this: undefined
 LE: [{
   arguments: object,
   a: 8,
