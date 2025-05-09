@@ -1,4 +1,4 @@
-let { name, years: age, isAdmin } = { name: 'John', years: 30 }
+let { name, years: age, isAdmin = false } = { name: 'John', years: 30 }
 alert(name)
 alert(age)
-alert(isAdmin || false)
+alert(isAdmin)
