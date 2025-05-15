@@ -1,0 +1,12 @@
+{
+  "name": "lab13",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
