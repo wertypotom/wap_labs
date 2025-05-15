@@ -23,3 +23,6 @@ Animal.compareBySpeed = function (animal1, animal2) {
     return null
   }
 }
+
+Object.setPrototypeOf(Rabbit, Animal)
+Object.setPrototypeOf(Rabbit.prototype, Animal.prototype)
